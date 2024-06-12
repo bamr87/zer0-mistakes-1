@@ -28,11 +28,11 @@
 
 founder                  : "Amr"
 # remote_theme             : "bamr87/zer0-mistakes"
-# theme                    : "jekyll-theme-zer0"
+theme                    : "jekyll-theme-zer0"
 
 ## Github Information
 github_user              : &github_user "bamr87"
-repository_name          : &github_repository "zer0-mistakes"
+repository_name          : &github_repository "zer0-mistakes-1"
 repository               : [*github_user, "/", *github_repository] # GitHub username/repo-name
 local_repo               : *github_repository
 branch                   : "main"
@@ -50,7 +50,7 @@ subtitle_icon            : "code"
 title_separator          : "|" # Appears in the web browser tab name
 domain                   : &domain "github"
 domain_ext               : &domain_ext "io"
-baseurl                  : &baseurl "/zer0-mistakes" # the subpath of your site, e.g. /blog - Use this if you want this whole repo to be a domain branch
+baseurl                  : &baseurl "/zer0-mistakes-1" # the subpath of your site, e.g. /blog - Use this if you want this whole repo to be a domain branch
 url                      : &url [ 'https://', *github_user, '.', *domain, '.', *domain_ext ] 
 public_folder            : "/assets"
 port                     : 4000 # Jekyll Serve Dev port
